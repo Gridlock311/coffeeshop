@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 header {
-    background: url("coffeeshop/img/home1.jpg");
+    background: url("../img/home1.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ header .header-content p {
 
 #section1 .section1-img {
     flex: 1;
-    background: url("coffeeshop/img/home-image-1.jpg");
+    background: url("../img/home-image-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,7 +120,7 @@ header .header-content p {
 .section2 .section2-img {
     width: 100%;
     height: 100%;
-    background: url("coffeeshop/img/home2.jpg") center/cover no-repeat;
+    background: url("../img/home2.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,7 +180,7 @@ header .header-content p {
     height:100vh;
 }
 .sec-img {
-    background: url("coffeeshop/img/port-1.jpg") no-repeat center/cover; 
+    background: url("../img/port-1.jpg") no-repeat center/cover; 
     background-position:center; 
     background-size: cover;
     border:5px solid #fff;
@@ -219,7 +219,7 @@ header .header-content p {
     width: 100%;
     height: 100%;
     min-height: 500px;
-    background: url("coffeeshop/img/home3.jpg") center/cover no-repeat;
+    background: url("../img/home3.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
