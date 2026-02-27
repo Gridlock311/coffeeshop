@@ -4,125 +4,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact Us</title>
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: Arial, sans-serif;
-}
+<link rel="stylesheet" href="css/style.css">
 
-.contact-section {
-    padding: 80px 20px;
-    background: #f9f9f9;
-}
+<!-- Font Awesome (icon working for mug) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-.contact-container {
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-    gap: 60px;
-    justify-content: space-between;
-}
-
-.contact-info {
-    flex: 1;
-}
-
-.contact-info h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
-    font-weight: 600;
-}
-
-.main-color {
-    color: #111;
-}
-
-.contact-info p {
-    color: #666;
-    margin-bottom: 25px;
-    line-height: 1.6;
-}
-
-.info-item {
-    margin-bottom: 20px;
-}
-
-.info-item h4 {
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #111;
-}
-
-.contact-form {
-    flex: 1;
-}
-
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    background: #fff;
-    font-size: 14px;
-    outline: none;
-    transition: 0.2s ease;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    border-color: #111;
-}
-
-.contact-form textarea {
-    resize: none;
-    height: 120px;
-}
-
-.btn {
-    padding: 12px;
-    background: #111;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    transition: 0.2s ease;
-}
-
-.btn:hover {
-    background: #333;
-}
-
-@media (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-        gap: 40px;
-    }
-}
-</style>
 </head>
 
 <body>
-    
-        <link rel="stylesheet" href="css/style.css">
-     <nav><h3><span class="main-color"><i class="fa-solid fa-mug-hot"></i></span>Кофе <span class="main-color">шоп</span></h3>
-        <ul>
-            <li><a href="index.html">Эхлэл</a></li>
-            <li><a href="about.html">Бидний тухай</a></li>
-            <li><a href="menu.html">Манай цэс</a></li>
-            <li><a href="contactus.html">Холбоо барих</a></li>
-        </ul>
-    </nav>
+
+<nav>
+    <h3>
+        <span class="main-color">
+            <i class="fa-solid fa-mug-hot"></i>
+        </span>
+        Кофе <span class="main-color">шоп</span>
+    </h3>
+
+    <ul>
+        <li><a href="index.html">Эхлэл</a></li>
+        <li><a href="about.html">Бидний тухай</a></li>
+        <li><a href="menu.html">Манай цэс</a></li>
+        <li><a href="contactus.html">Холбоо барих</a></li>
+    </ul>
+</nav>
 
 <section class="contact-section"> 
     <div class="contact-container">
@@ -130,7 +36,10 @@ body {
         <div class="contact-info">
             
             <h2><span class="main-color">Холбоо</span> барих</h2>
-            <p>Сайн байна уу? Таны санал хүсэлтийг хүлээж авч байгаадаа бид баяртай байна. Таны email-рүү хариу өгөх болно.</p>
+            <p>
+                Сайн байна уу? Таны санал хүсэлтийг хүлээж авч байгаадаа бид баяртай байна.
+                Таны email-рүү хариу өгөх болно.
+            </p>
 
             <div class="info-item">
                 <h4>📍 Хаяг</h4>
@@ -140,6 +49,7 @@ body {
             <div class="info-item">
                 <h4>📞 Утас</h4>
                 <p>+976 9911 2233</p>
+                <p>+976 7611 0000</p>
             </div>
 
             <div class="info-item">
@@ -148,17 +58,10 @@ body {
             </div>
         </div>
 
-        <div class="contact-form">
-            <form>
-                <input type="text" placeholder="Нэр" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Хүсэлт" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
-
     </div>
 </section>
-       <img src="img/back.jpg" alt="">
+
+<img src="img/back.jpg" alt="">
+
 </body>
 </html>
